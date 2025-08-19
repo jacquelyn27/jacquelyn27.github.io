@@ -27,6 +27,8 @@ order: 1
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <img src="/images/jacquelyn_coleman.png" alt="Jacquelyn Coleman" width="150" float="right" style="margin-left: 20px; margin-bottom: 20px;border-radius: 10%;">
 
 Jacquelyn Coleman is a watercolorist known for her evocative depictions of the California landscape, particularly the Monterey Bay Area. Her work captures the essence of everyday life and the natural beauty of her surroundings, reflecting a deep connection to the places she paints.
@@ -49,6 +51,10 @@ Later, when she and her husband owned a summer property in Boothbay Harbor, Main
 
 *© {{ page.date | date: "%Y" }} Jacquelyn Coleman. All rights reserved.*
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <div class="section main">
@@ -74,6 +80,14 @@ Later, when she and her husband owned a summer property in Boothbay Harbor, Main
 		</div>
 	</div>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+</div>
+>>>>>>> Stashed changes
+=======
+</div>
+>>>>>>> Stashed changes
+=======
 </div>
 >>>>>>> Stashed changes
 =======
