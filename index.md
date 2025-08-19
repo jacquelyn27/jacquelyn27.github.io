@@ -8,7 +8,7 @@ order: 1
 <div class="section header">
 	<div class="container">
 		<img src="{{ "/assets/img/logo.png" | relative_url }}"><!-- should be svg -->
-		<h3 class="section-heading">watercolors</h3>
+		<h3 class="section-heading">California Watercolorist</h3>
 		<!--
 		<p class="section-description">
 		</p>
@@ -32,7 +32,7 @@ order: 1
 			{% assign list = coll.files | sort: "basename" %}
 			<!--{% assign l = coll.files.size | divided_by: 2 | ceil %}-->
 			<div class="column">
-				{% for image in list limit: 5 %}
+				{% for image in list limit: 1 %}
 				<article class="thumb">
 					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
 				</article>

@@ -7,7 +7,6 @@
 }
 .lg-icon {
   font-family: 'lg';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -977,3 +976,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 /*# sourceMappingURL=lightgallery.css.map */
+
+.thumb {
+    margin-bottom: 1.5rem;
+}
+
+.image-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+}

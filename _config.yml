@@ -7,18 +7,10 @@ description: Northern California watercolorist.
 
 include: ['_pages']
 
-collections_dir: series
-
 collections:
   home:
-    output: true
-  ocean:
     output: false
-  landscape:
-    output: false
-  portraits:
-    output: falsef
-  still_life:
+  gallery:
     output: false
 
 markdown: kramdown
