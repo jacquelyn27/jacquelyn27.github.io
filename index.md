@@ -1,15 +1,31 @@
 ---
-layout: default
-title: "Jacquelyn Coleman - Watercolorist"
-description: "Official website of artist Jacquelyn Coleman"
-author: "Jacquelyn Coleman"
-date: 2025-08-17
-permalink: /
-tags: [artist, portfolio, artwork]
+title: home
+layout: home
+type: parent
+order: 1
 ---
 
-# Jacquelyn Coleman
+<div class="section header">
+	<div class="container">
+		<img src="{{ "/assets/img/logo.png" | relative_url }}"><!-- should be svg -->
+		<h3 class="section-heading">watercolors</h3>
+		<!--
+		<p class="section-description">
+		</p>
+		-->
+		<div id="navbar-wrapper">
+			<div id="navbar">
+				<img id="brand" class="hide" src="{{ "/assets/img/logo.png" | relative_url }}">
+				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
+				{% for page in mypages %}
+				<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
 
+<<<<<<< Updated upstream
 <img src="/images/jacquelyn_coleman.png" alt="Jacquelyn Coleman" width="150" float="right" style="margin-left: 20px; margin-bottom: 20px;border-radius: 10%;">
 
 Jacquelyn Coleman is a watercolorist known for her evocative depictions of the California landscape, particularly the Monterey Bay Area. Her work captures the essence of everyday life and the natural beauty of her surroundings, reflecting a deep connection to the places she paints.
@@ -31,3 +47,28 @@ Later, when she and her husband owned a summer property in Boothbay Harbor, Main
 ---
 
 *© {{ page.date | date: "%Y" }} Jacquelyn Coleman. All rights reserved.*
+=======
+<div class="section main">
+	<div class="container">
+		<div class="row" id="gallery">
+			{% assign coll = site.collections | where: "label", "home" | first %}
+			{% assign list = coll.files | sort: "basename" %}
+			<!--{% assign l = coll.files.size | divided_by: 2 | ceil %}-->
+			<div class="column">
+				{% for image in list limit: 5 %}
+				<article class="thumb">
+					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+				</article>
+				{% endfor %}
+			</div>
+			<!--<div class="one-half column">
+				{% for image in list offset: l %}
+				<article class="thumb">
+					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+				</article>
+				{% endfor %}
+			</div>-->
+		</div>
+	</div>
+</div>
+>>>>>>> Stashed changes
