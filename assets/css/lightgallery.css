@@ -983,7 +983,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .image-caption {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
     color: #666;
 }
