@@ -17,7 +17,7 @@ collections:
   landscape:
     output: false
   portraits:
-    output: false
+    output: falsef
   still_life:
     output: false
 
