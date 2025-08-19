@@ -10,9 +10,6 @@ order: 2
 	<div class="container">
 <img src="/assets/img/jacquelyn-portrait.jpg" alt="Jacquelyn Coleman" class="thumbnail-left">
 <p markdown="1" style="text-align: left;">
-Jacquelyn Coleman is a watercolorist known for her evocative depictions of the California landscape, particularly the Monterey Bay Area. Her work captures the essence of everyday life and the natural beauty of her surroundings, reflecting a deep connection to the places she paints.</p>
-Jacquelyn Coleman is a watercolorist known for her evocative depictions of the California landscape, particularly the Monterey Bay Area. Her work captures the essence of everyday life and the natural beauty of her surroundings, reflecting a deep connection to the places she paints.</p>
-<p markdown="1" style="text-align: left;">
 Jacquelyn Coleman's approach to watercolor has its roots in the California Style of watercolor painting, part of the American Scene or Regionalist movement that swept across the United States during the mid twentieth century. She spent many of the early years of her career painting weekly on location with artist George Post, documenting scenes and activities of everyday life in San Francisco and the greater San Francisco Bay Area. She later studied with California watercolorists Rex Brandt, Jade Fon, and Richard Yip.</p>
 <p markdown="1" style="text-align: left;">
 In the early 1970s, a mother of five children, Jacquelyn maintained an active watercolor practice while also playing a prominent role in the Bay Area arts community. She served as board member of the Oakland Art Association, President of the Art League of the East Bay, and in 1975 was elected president of the San Francisco Women Artists.</p>

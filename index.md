@@ -9,14 +9,13 @@ order: 1
 	<div class="container">
 		<img src="{{ "/assets/img/logo.png" | relative_url }}"><!-- should be svg -->
 		<h3 class="section-heading">California Watercolorist</h3>
-		<!--
 		<p class="section-description">
+Jacquelyn Coleman is a watercolorist known for her evocative depictions of the California landscape, particularly the Monterey Bay Area. Her work captures the essence of everyday life and the natural beauty of her surroundings, reflecting a deep connection to the places she paints.
 		</p>
-		-->
 		<div id="navbar-wrapper">
 			<div id="navbar">
 				<img id="brand" class="hide" src="{{ "/assets/img/logo.png" | relative_url }}">
-				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
+				{% assign mypages = site.pages | where: "nav", true | sort: "order" %}
 				{% for page in mypages %}
 				<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
 				{% endfor %}
