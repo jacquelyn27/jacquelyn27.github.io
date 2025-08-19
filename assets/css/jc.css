@@ -25,5 +25,21 @@
     clear: both;
 }
 
+/* Make header image larger and more prominent */
+.section.header img {
+    width: 80%; /* Takes up 80% of container */
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    display: block;
+}
+
+/* Make footer image smaller and subtle */
+.section.footer.dark img {
+    width: 50%; /* Takes up 50% of container */
+    max-width: 200px;
+    height: auto;
+    opacity: 0.9; /* Slightly transparent for footer */
+}
 
 
