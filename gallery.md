@@ -1,6 +1,6 @@
 ---
 title: Gallery
-layout: default
+layout: gallery
 description: A selection of paintings by Jacquelyn Coleman
 type: gallery
 nav: true
