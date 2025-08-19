@@ -47,4 +47,8 @@ order: 1
 			</div>-->
 		</div>
 	</div>
+<<<<<<< Updated upstream
 </div>
+=======
+</div>
+>>>>>>> Stashed changes
