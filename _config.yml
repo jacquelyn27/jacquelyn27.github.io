@@ -1,0 +1,26 @@
+title: Jacquelyn Coleman
+url: https://jacquelyn27.github.io/
+baseurl: 
+
+author: jacquelyn Coleman
+description: Northern California watercolorist.
+
+include: ['_pages']
+
+collections_dir: series
+
+collections:
+  home:
+    output: true
+  ocean:
+    output: false
+  landscape:
+    output: false
+  portraits:
+    output: false
+  still_life:
+    output: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
