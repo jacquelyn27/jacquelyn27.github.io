@@ -10,7 +10,7 @@ order: 1
 		<img src="{{ "/assets/img/logo.png" | relative_url }}"><!-- should be svg -->
 		<h3 class="section-heading">California Watercolorist</h3>
 		<p class="section-description">
-Jacquelyn Coleman is a watercolorist known for her evocative depictions of the California landscape, particularly the Monterey Bay Area. Her work captures the essence of everyday life and the natural beauty of her surroundings, reflecting a deep connection to the places she paints.
+Jacquelyn Coleman is a watercolorist known for her<br />evocative depictions of the California landscape. <br />Her work captures the essence of everyday life <br />and the natural beauty of her surroundings, <br />reflecting a deep connection to the places she paints.
 		</p>
 		<div id="navbar-wrapper">
 			<div id="navbar">
@@ -37,13 +37,6 @@ Jacquelyn Coleman is a watercolorist known for her evocative depictions of the C
 				</article>
 				{% endfor %}
 			</div>
-			<!--<div class="one-half column">
-				{% for image in list offset: l %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>-->
 		</div>
 	</div>
 </div>

@@ -7,14 +7,14 @@
 
 .thumbnail-right {
     float: right;
-    margin: 0 0 1rem 1.5rem;
+    margin: 2rem 0 1rem 1.5rem;
     max-width: 200px;
     height: auto;
 }
 
 /* Optional: Add subtle styling */
 .thumbnail-left, .thumbnail-right {
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
