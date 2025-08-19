@@ -1,7 +1,7 @@
 ---
 title: home
 layout: home
-type: parent
+nav: true
 order: 1
 ---
 
