@@ -1,0 +1,29 @@
+.thumbnail-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;  /* top, right, bottom, left */
+    max-width: 200px;  /* Adjust size as needed */
+    height: auto;
+}
+
+.thumbnail-right {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    max-width: 200px;
+    height: auto;
+}
+
+/* Optional: Add subtle styling */
+.thumbnail-left, .thumbnail-right {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Clear floats after content if needed */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
